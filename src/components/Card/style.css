@@ -1,0 +1,77 @@
+.portrait {
+  margin: auto;
+  padding: 0.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 21rem;
+  height: 30.5rem;
+  margin-bottom: 6.25rem;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  }
+  .heroName {
+    width: 7.813rem;
+    height:1.5rem;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height:1.313rem;
+    text-align: center;
+    color: #ffffff;
+    margin-top:1.563rem;
+    margin-bottom: 9.625rem;
+  }
+  .hero {
+    width: 18.125rem;
+  }
+  .line {
+    position: absolute;
+    width: 18.125rem;
+    height: 1px;
+  
+    background: #ffffff;
+    margin-bottom: 41.875rem;
+  }
+  @media only screen and (max-width: 400px) {
+   
+    .portrait {
+      margin: auto;
+      padding: 0.625rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width:17.688rem;
+      height: 28.938rem;
+      margin-bottom: 6.25rem;
+      border: 1px solid #ffffff;
+      box-sizing: border-box;
+    }
+    .hero {
+      width:15.625rem;
+    }
+ 
+    .line {
+      position: absolute;
+      width: 15.625rem;
+      height: 1px;
+      background: #ffffff;
+      margin-bottom: 36.25rem;
+    }
+    .heroName {
+      width: 6.875rem;
+      height: 1.313rem;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size:1.125rem;
+      line-height:1.313rem;
+      text-align: center;
+      color: #ffffff;
+      margin-top: 1.563rem;
+      margin-bottom:6.5rem;
+    }
+  }
