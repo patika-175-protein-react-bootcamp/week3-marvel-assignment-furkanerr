@@ -1,3 +1,6 @@
+# LİNK
+**https://marvel-by-furkaner.netlify.app/**
+
 # week3 case
 
 https://developer.marvel.com/ API ını kullanarak geçen hafta ki çalışmanızı devam ettirmeniz istenmektedir.
